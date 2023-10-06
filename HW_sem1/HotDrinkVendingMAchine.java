@@ -17,12 +17,12 @@ public class HotDrinkVendingMAchine implements VendingMAchine {
     }
 
     public HotDrink geProduct(String name, int price, double volume, int temper) {
-    for (HotDrink hotDrink: productList) {
-        if (hotDrink.getName().equals(name) && hotDrink.getPrice() == price && hotDrink.getVolume() == volume && hotDrink.getTemper() == temper) {
-            return hotDrink;
+        for (HotDrink hotDrink: productList) {
+            if (hotDrink.getName().equals(name) && hotDrink.getPrice() == price && hotDrink.getVolume() == volume && hotDrink.getTemper() == temper) {
+                return hotDrink;
+            }
         }
-    }
-    return null;
+        return null;
     }
 
     public HotDrink geProduct(String name, int price, int temper) {
