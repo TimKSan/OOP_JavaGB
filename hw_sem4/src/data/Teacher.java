@@ -1,4 +1,4 @@
-package sem4.src.data;
+package data;
 
 import java.time.LocalDate;
 import java.util.Comparator;
@@ -7,7 +7,7 @@ public class Teacher extends User{
 
     private Long teacherId;
 
-    public Teacher(String firstName, String secondName, String patronymic, LocalDate dateOfBirth) {
+    public Teacher(String firstName, String secondName, String patronymic, LocalDate dateOfBirth, Long countMaxId) {
         super(firstName, secondName, patronymic, dateOfBirth);
     }
 

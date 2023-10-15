@@ -1,9 +1,9 @@
-package sem4.src.service;
+package service;
 
-import sem4.src.data.Student;
-import sem4.src.data.UserComparator;
-import sem4.src.data.StudentGroup;
-import sem4.src.data.Teacher;
+import data.Student;
+import data.UserComparator;
+import data.StudentGroup;
+import data.Teacher;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,7 +1,6 @@
-package sem4.src.controller;
+package controller;
 
-import sem4.src.data.User;
-
+import data.User;
 import java.time.LocalDate;
 
 public interface UserController<T extends User>{

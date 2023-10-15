@@ -1,6 +1,6 @@
-package sem4.src.view;
+package view;
 
-import sem4.src.data.User;
+import data.User;
 
 import java.util.List;
 
