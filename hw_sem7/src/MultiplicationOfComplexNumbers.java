@@ -1,4 +1,5 @@
 public class MultiplicationOfComplexNumbers implements ValueToString {
+    
     private double real;
     private double imaginary;
 
